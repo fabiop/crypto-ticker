@@ -2,11 +2,16 @@
 Crypto Coin Ticker
 
 
+May need to install python requests module:
+```
+pip install requests
+```
+
 Usage:
 
 ```
 git clone https://github.com/fabiop/crypto-ticker.git
-while true; crypto-ticker/ct.py ; sleep 300 ; done
+while true; do crypto-ticker/ct.py ; sleep 300 ; done
 ```
 
 300 is seconds, updates every 5 minutes 
