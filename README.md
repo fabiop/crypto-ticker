@@ -1,5 +1,5 @@
 # crypto-ticker
-Crypto Coin Ticker for unix type terminal 
+Crypto Coin Ticker for *nix type terminals
 
 
 Usage:
