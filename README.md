@@ -1,11 +1,6 @@
 # crypto-ticker
-Crypto Coin Ticker
+Crypto Coin Ticker for unix type terminal 
 
-
-May need to install python requests module:
-```
-pip install requests
-```
 
 Usage:
 
@@ -15,6 +10,12 @@ while true; do crypto-ticker/ct.py ; sleep 300 ; done
 ```
 
 300 is seconds, updates every 5 minutes 
+
+
+You may need to install python 'requests' module:
+```
+pip install requests
+```
 
 If you want timestamps, install ts, ie 
 
@@ -35,6 +36,6 @@ while true; do echo -n "------------------"; echo|ts ; crypto-ticker/ct.py ; sle
 ```
 
 
-Example on MacOS here: https://imgur.com/a/66scw 
+Example runnig on MacOS here: https://imgur.com/a/66scw 
 
 Enjoy! :)
