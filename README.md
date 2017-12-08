@@ -31,4 +31,4 @@ while true; do echo -n "------------------"; echo|ts ; crypto-ticker/ct.py ; sle
 
 ![example on Mac OS][img]
 
-[img]: https://imgur.com/a/66scw "Example on Mac OS"
+[img]: (https://imgur.com/a/66scw "Example on Mac OS")
