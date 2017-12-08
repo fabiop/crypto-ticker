@@ -1,8 +1,10 @@
 # crypto-ticker
 Crypto Coin Ticker
 
-```
+
 Usage:
+
+```
 git clone https://github.com/fabiop/crypto-ticker.git
 while true; crypto-ticker/ct.py ; sleep 300 ; done
 ```
