@@ -29,6 +29,7 @@ then run:
 while true; do echo -n "------------------"; echo|ts ; crypto-ticker/ct.py ; sleep 300 ; done
 ```
 
-![example on Mac OS][img]
 
-[img]: (https://imgur.com/a/66scw "Example on Mac OS")
+Example on MacOS here: https://imgur.com/a/66scw 
+
+Enjoy! :)
