@@ -12,9 +12,9 @@ while true; do crypto-ticker/ct.py ; sleep 300 ; done
 300 is seconds, updates every 5 minutes 
 
 
-You may need to install python 'requests' module:
+You may need to install some modules:
 ```
-pip install requests
+pip install json requests collections tabulate
 ```
 
 If you want timestamps, install ts, ie 
@@ -32,10 +32,10 @@ brew install ts
 then run:
 
 ```
-while true; do echo -n "------------------"; echo|ts ; crypto-ticker/ct.py ; sleep 300 ; done
+alias ticker='while true; do echo|ts ; crypto-ticker/ct.py ; sleep 300 ; done'
+ticker
 ```
 
-
-Example runnig on MacOS here: https://imgur.com/a/66scw 
+Example running on MacOS here: https://imgur.com/a/pM2dg
 
 Enjoy! :)
