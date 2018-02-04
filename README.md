@@ -1,6 +1,7 @@
 # crypto-ticker
 Crypto Coin Ticker for *nix type terminals
 
+Update the portfolio.csv file with correct quantity.
 
 Usage:
 
